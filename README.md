@@ -18,6 +18,7 @@
 ## Running
 ##### npm run watch
 ##### php artisan serve
+##### visit url 127.0.0.1:8000
 
 ## Unit Testing
 ##### create `Unit` folder on `tests` folder
