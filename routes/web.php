@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function(){
+   return view('welcome');
 });
+Route::get('comments/{blog}', 'CommentController@index');
+Route::post('comments', 'CommentController@store');
