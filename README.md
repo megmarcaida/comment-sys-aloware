@@ -16,7 +16,8 @@
 ##### php artisan migrate
 
 ## Running
-##### npm run dev
+##### npm run watch
+##### php artisan serve
 
 ## Unit Testing
 ##### create `Unit` folder on `tests` folder
